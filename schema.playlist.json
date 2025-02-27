@@ -76,27 +76,27 @@
               ]
             },
             "platforms": {
-              "type": "string",
-              "minItems": 1,
-              "maxItems":3,
-              "enum": [
-                "Spotify",
-                "AppleMusic",
-                "Youtube"
-              ]
+              "type": "array",
+              "items": {
+                "enum": [
+                  "Spotify",
+                  "AppleMusic",
+                  "Youtube"
+                ]
+              }
             }
-          }
+          },
+          "required": [
+            "title",
+            "artist",
+            "album",
+            "releaseYear",
+            "duration",
+            "statistics",
+            "inDevice",
+            "platforms"
+          ]
         }
-      ],
-      "required": [
-        "title",
-        "artist",
-        "album",
-        "releaseYear",
-        "duration",
-        "statistics",
-        "inDevice",
-        "platforms"
       ]
     }
   }
