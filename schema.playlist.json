@@ -5,7 +5,7 @@
     "playlist": {
       "type": "array",
       "minItems": 1,
-      "items": [
+      "items": 
         {
           "type": "object",
           "properties": {
@@ -78,11 +78,7 @@
             "platforms": {
               "type": "array",
               "items": {
-                "enum": [
-                  "Spotify",
-                  "AppleMusic",
-                  "Youtube"
-                ]
+                "enum": [ "Spotify", "AppleMusic" , "Youtube" ]
               }
             }
           },
@@ -97,7 +93,7 @@
             "platforms"
           ]
         }
-      ]
+      
     }
   }
 }
