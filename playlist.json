@@ -1,4 +1,5 @@
 {
+  "$schema": "./schema.playlist.json",
   "playlist": [
     {
       "title": "Ang Huling El Bimbo",

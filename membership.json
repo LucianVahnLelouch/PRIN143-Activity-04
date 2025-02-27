@@ -1,5 +1,4 @@
 {
-  "$schema": "./shchema.membership.json",
   "Membership": {
     "LastName": "Doe",
     "GivenName": "John",
